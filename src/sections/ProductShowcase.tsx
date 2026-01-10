@@ -2,6 +2,7 @@
 import LAAS from "@/assets/LAAS.png";
 import ERP_workflows from "@/assets/ERP_workflows.png";
 import machine_observabilty from "@/assets/machine_observabilty.png";
+import medical from "@/assets/medical_tech.jpg";
 import pyramidImage from "@/assets/pyramid.png";
 import tubeImage from "@/assets/tube.png";
 import Image from "next/image";
@@ -55,7 +56,7 @@ export const ProductShowcase = () => {
             }}
           />
         </div> */}
-        <div className="relative grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
+        <div className="relative grid grid-cols-1 md:grid-cols-4 gap-8 mt-10">
           {/* Card 1 */}
           <div className="bg-white p-10 rounded-3xl shadow-[0_7px_14px_#EAEAEA] border border-[#F1F1F1] text-center">
             <div className="flex justify-center mb-6">
@@ -64,7 +65,7 @@ export const ProductShowcase = () => {
                 alt="Integration ecosystem"
                 height={200}
                 width={250}
-                className="object-contain"
+                className="object-contain h-36"
               />
             </div>
             <h3 className="text-2xl font-bold tracking-tight mb-2">
@@ -72,7 +73,21 @@ export const ProductShowcase = () => {
             </h3>
             <p className="text-black/60 leading-relaxed"></p>
           </div>
-
+          <div className="bg-white p-10 rounded-3xl shadow-[0_7px_14px_#EAEAEA] border border-[#F1F1F1] text-center">
+            <div className="flex justify-center mb-6">
+              <Image
+                src={medical}
+                alt="IOT Medical Technologies"
+                height={350}
+                width={250}
+                className="object-contain h-36 scale-125"
+              />
+            </div>
+            <h3 className="text-2xl font-bold tracking-tight mb-2">
+              IOT Medical Technologies
+            </h3>
+            <p className="text-black/60 leading-relaxed"></p>
+          </div>
           {/* Card 2 */}
           <div className="bg-white p-10 rounded-3xl shadow-[0_7px_14px_#EAEAEA] border border-[#F1F1F1] text-center">
             <div className="flex justify-center mb-6">
@@ -81,7 +96,7 @@ export const ProductShowcase = () => {
                 alt="Machine Observability"
                 height={200}
                 width={250}
-                className="object-contain"
+                className="object-contain h-36"
               />
             </div>
             <h3 className="text-2xl font-bold tracking-tight mb-2">
@@ -97,7 +112,7 @@ export const ProductShowcase = () => {
                 alt="ERP_workflows"
                 height={180}
                 width={250}
-                className="object-contain"
+                className="object-contain h-36"
               />
             </div>
             <h3 className="text-2xl font-bold tracking-tight mb-2">
