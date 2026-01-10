@@ -32,8 +32,8 @@ export const Hero = () => {
               Making Complexity Manageable
             </h1>
             <p className="text-xl text-[#000000] tracking-tight mt-6">
-              Observability for machines and experiments, to test orchestration,
-              lab-as-a-service, ERP workflows
+              Medical Technologies, Observability for machines and experiments,
+              to test orchestration, lab-as-a-service, ERP workflows
             </p>
             <div className="flex gap-1 items-center mt-[30px]">
               <button className="btn btn-primary">Contact Us</button>
