@@ -28,7 +28,7 @@ export const Footer = () => {
           <SocialPin />
           <SocialYoutube />
         </div> */}
-        <p className="mt-6">&copy; Feldstern, Inc. All rights reserved.</p>
+        {/* <p className="mt-6">&copy; Feldstern, Inc. All rights reserved.</p> */}
       </div>
     </footer>
   );
